@@ -21,6 +21,12 @@ p {
     margin: 0;
 }
 
+.infor {
+    position: relative;
+    margin-left: 50%;
+    top: -20%;
+}
+
 .spacer {
     height: 100px;
     width: 300px;
@@ -35,28 +41,17 @@ p {
 }
 
 .toolbar {
-    height: 60px;
     display: flex;
     align-items: center;
     color: rgb(248, 169, 23);
     font-weight: 600;
-
 }
 
 .toolbar img {
-    margin: 16px;
-}
-
-.body {
-    background-image: url("/assets/body.png");
-    position: relative;
-    height: 960px;
-    background-color: #18222D;
-
+    margin: 20px;
 }
 
 .content {
-    
     display: flex;
     margin: 32px auto;
     padding: 0 30px;
@@ -65,6 +60,10 @@ p {
     align-items: stretch;
 }
 
+.professor {
+    display: flex;
+    align-items: center;
+}
 
 a, a:visited, a:hover {
     color: #ffffff;
