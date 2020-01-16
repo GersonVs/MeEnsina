@@ -20,11 +20,31 @@ h1 {
 p {
     margin: 0;
 }
+.navbar-custom {
+    background-color: #F5BB00;
+}
+.Login{
+    width: 80px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.video {
+    position: relative;
+    margin: 10px auto;
+    width: 550px;
+}
 
 .infor {
     position: relative;
-    margin-left: 50%;
-    top: -20%;
+    display: flex;
+    margin: 32px auto;
+    flex-direction: column;
+    align-items: center;
 }
 
 .spacer {
@@ -33,7 +53,16 @@ p {
     margin: 20px;
     top: 20px;
 }
-
+.entrada{
+    position: relative;
+    top: 20px;
+    width: 300px;
+    display: flex;
+    margin: 35px;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
 .botoes {
     position: relative;
     left: 55%;
@@ -51,19 +80,13 @@ p {
     margin: 20px;
 }
 
-.content {
-    display: flex;
-    margin: 32px auto;
-    padding: 0 30px;
-    max-width: 960px;
-    flex-direction: column;
-    align-items: stretch;
-}
-
-
 .professor {
+    position: relative;
+    left: 20%;
+    top: 10%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 a, a:visited, a:hover {

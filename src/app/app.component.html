@@ -10,42 +10,51 @@
 <!-- Toolbar -->
 <div class="body">
 
-    <div class="toolbar" fxLayout="row" fxLayoutAlign="center center">
-        <img width="80" alt="Angular Logo" src="\assets\Logo_Me_Ensina_Branca.png" />
 
-        <div class="botoes">
+    <nav class="navbar navbar-light">
+        <a class="navbar-brand " href="#">
+            <img src="assets\Logo_Me_Ensina_Branca.png" width="110" height="60" class="d-inline-block align-top px-md-3"
+                alt="">
+        </a>
+        <nav class="navbar navbar-expand-lg ">
+            <button class="navbar-toggler navbar-custom " type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link text-white font-weight-bold" href="#">Ajuda</a>
+                    <a class="nav-item nav-link text-white font-weight-bold" href="#">Inscreva-se</a>
+                    <a class="nav-item nav-link text-white font-weight-bold" href="#">Faça parte</a>
+                    <div class="Login">
+                        <a class="nav-item nav-link text-white text-center rounded-pill bg-warning" href="#">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </nav>
 
-            <a class="spacer" target="_blank" rel="noopener" href="https://blog.angular.io/">
+    <div class="container">
+        <div class="infor">
 
-                <span>Ajuda</span>
-            </a>
-            <a class="spacer" target="_blank" rel="noopener" href="https://blog.angular.io/">
-                <span>Inscreva-se</span>
-            </a>
-            <a class="spacer" target="_blank" rel="noopener" href="https://blog.angular.io/">
 
-                <span>Faça parte</span>
-            </a>
-            <a class="spacer" target="_blank" rel="noopener" href="https://blog.angular.io/">
-
-                <span>Login</span>
-            </a>
+            <!-- Resources -->
+            <h1>Como é o Me Ensina?</h1>
+            <h3>Veja o video e fique por dentro :)</h3>
+        </div>
+        <div class="video">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/k5DZBdL6qnA?list=RDhTTfpb-pdXI"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
 
         </div>
 
     </div>
 
-    <div class="content" role="main">
 
-
-        <!-- Resources -->
-        <h1>Como é o Me Ensina?</h1>
-        <h3>Veja o video e fique por dentro :)</h3>
-    </div>
-    <div class="infor">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ALZHF5UqnU4" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
     <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
     <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
@@ -58,8 +67,22 @@
 </div>
 <div class="body2">
     <div class="professor" fxLayout="row" fxLayoutAlign="center center">
-        <h1>Encontre um professor</h1>
-
+        <h2 class="text-warning">Encontre</h2>
+        <h2 class="text-warning">O melhor professor</h2>
+    </div>
+    <div class="container">
+        <div class="entrada">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Qual matéria quer aprender?" aria-label="materia"
+                    aria-describedby="basic-addon1">
+            </div>
+        </div>
+        <div class="entrada">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Rua, bairro e/ou cidade" aria-label="endereco"
+                    aria-describedby="basic-addon1">
+            </div>
+        </div>
     </div>
 
 
