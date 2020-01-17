@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1358" height="451" viewBox="0 0 1358 451">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.322" x2="0.846" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0e5c7b"/>
+      <stop offset="0.339" stop-color="#106181"/>
+      <stop offset="0.69" stop-color="#217fa2"/>
+      <stop offset="1" stop-color="#0f92c2"/>
+    </linearGradient>
+    <filter id="Retângulo_5" x="0" y="0" width="1358" height="451" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ic_find_in_page_24px" x="86" y="183" width="51.506" height="59.882" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ic_beenhere_24px" x="534.838" y="183" width="52.267" height="59.882" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ic_favorite_24px" x="985.349" y="196.125" width="53.703" height="50.757" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Componente_1_1" data-name="Componente 1 – 1" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Retângulo_5)">
+      <rect id="Retângulo_5-2" data-name="Retângulo 5" width="1340" height="433" rx="42" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="Aprenda_com_Confiança" data-name="Aprenda com Confiança" transform="translate(319 131)" fill="#fff" font-size="38" font-family="OpenSans, Open Sans"><tspan x="-212.229" y="0">Aprenda com Confiança</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#ic_find_in_page_24px)">
+      <path id="ic_find_in_page_24px-2" data-name="ic_find_in_page_24px" d="M37.506,38.835V14.565L24.941,2H8.188A4.183,4.183,0,0,0,4.021,6.188L4,39.694a4.183,4.183,0,0,0,4.167,4.188h25.15a4.15,4.15,0,0,0,2.492-.838l-9.277-9.277a10.472,10.472,0,1,1,4.691-8.732,10.426,10.426,0,0,1-1.738,5.759ZM14.47,25.035a6.282,6.282,0,1,0,6.282-6.282A6.274,6.274,0,0,0,14.47,25.035Z" transform="translate(91 187)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#ic_beenhere_24px)">
+      <path id="ic_beenhere_24px-2" data-name="ic_beenhere_24px" d="M33.46,1H6.807A3.8,3.8,0,0,0,3.019,4.807L3,29.423a3.818,3.818,0,0,0,1.675,3.16l15.458,10.3,15.439-10.3a3.818,3.818,0,0,0,1.675-3.16l.019-24.615A3.819,3.819,0,0,0,33.46,1ZM16.326,29.556,6.807,20.037l2.684-2.684,6.834,6.815L30.775,9.719l2.684,2.7Z" transform="translate(540.84 188)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#ic_favorite_24px)">
+      <path id="ic_favorite_24px-2" data-name="ic_favorite_24px" d="M19.851,35.757,17.263,33.4C8.069,25.064,2,19.566,2,12.818A9.723,9.723,0,0,1,11.818,3a10.69,10.69,0,0,1,8.033,3.731A10.69,10.69,0,0,1,27.884,3,9.723,9.723,0,0,1,37.7,12.818c0,6.748-6.069,12.246-15.263,20.6Z" transform="translate(992.35 199.12)" fill="#fff"/>
+    </g>
+    <rect id="Retângulo_6" data-name="Retângulo 6" width="380" height="3" rx="1.5" transform="translate(137 207)" fill="#fff"/>
+    <rect id="Retângulo_7" data-name="Retângulo 7" width="380" height="3" rx="1.5" transform="translate(587 210)" fill="#fff"/>
+    <text id="Encontre_" data-name="Encontre " transform="translate(86 261)" fill="#fff" font-size="25" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Encontre </tspan></text>
+    <text id="Reserve" transform="translate(503 257)" fill="#fff" font-size="25" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Reserve</tspan></text>
+    <text id="Aproveite" transform="translate(942 261)" fill="#fff" font-size="25" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Aproveite</tspan></text>
+    <text id="o_melhor_dentre_os_diversos_professores_avaliados_e_certificados_disponiveis" data-name="o melhor dentre os diversos 
+professores avaliados e certificados
+disponiveis" transform="translate(86 305)" fill="#fff" font-size="22" font-family="OpenSans, Open Sans"><tspan x="0" y="0">o melhor dentre os diversos </tspan><tspan x="0" y="30">professores avaliados e certificados</tspan><tspan x="0" y="60">disponiveis</tspan></text>
+    <text id="sua_aula_particular_quando_quiser_os_professores_irão_responder_o_mais_rápido_possível._" data-name="sua aula particular quando quiser, 
+os professores irão responder 
+o mais rápido possível.           " transform="translate(501 299)" fill="#fff" font-size="22" font-family="OpenSans, Open Sans"><tspan x="0" y="0">sua aula particular quando quiser, </tspan><tspan x="0" y="30">os professores irão responder </tspan><tspan x="0" y="60" xml:space="preserve">o mais rápido possível.           </tspan></text>
+    <text id="os_melhores_preços_você_só_encontra_aqui_se_inscreva_já_e_participe_de_nossas_promoções." data-name="os melhores preços você só 
+encontra aqui, se inscreva já 
+e participe de nossas promoções." transform="translate(942 305)" fill="#fff" font-size="22" font-family="OpenSans, Open Sans"><tspan x="0" y="0">os melhores preços você só </tspan><tspan x="0" y="30">encontra aqui, se inscreva já </tspan><tspan x="0" y="60">e participe de nossas promoções.</tspan></text>
+  </g>
+</svg>

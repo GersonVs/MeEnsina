@@ -8,7 +8,7 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <!-- Toolbar -->
-<div class="body">
+<div class="body1">
 
 
     <nav class="navbar navbar-light">
@@ -73,18 +73,48 @@
     <div class="container">
         <div class="entrada">
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Qual matéria quer aprender?" aria-label="materia"
-                    aria-describedby="basic-addon1">
+                <input type="text" class="form-control border-0 text-white" placeholder="Qual matéria quer aprender?"
+                    aria-label="materia" aria-describedby="basic-materia">
             </div>
         </div>
         <div class="entrada">
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Rua, bairro e/ou cidade" aria-label="endereco"
-                    aria-describedby="basic-addon1">
+                <input type="text" class="form-control border-0 text-white" placeholder="Rua, bairro e/ou cidade"
+                    aria-label="endereco" aria-describedby="basic-endereco">
             </div>
         </div>
+        <div class="entrada">
+            <div class="buscar">
+                <button type="button" class="btn btn-primary">Buscar <img src="assets\ic_search_24px.svg" alt="Logo"
+                        width="20%" /></button>
+            </div>
+
+        </div>
+
+
     </div>
 
+    <div class="infor3">
+        <img src="assets\Retângulo 5.svg" alt="Logo" width="80%" />
 
+    </div>
+
+    <div class="professor" fxLayout="row" fxLayoutAlign="center center">
+        <h2 class="text-warning">Aprenda</h2>
+        <h2 class="text-warning">tudo o que quiser</h2>
+        <h2 class="text-warning">Torne-se um mestre onde desejar!</h2>
+    </div>
 </div>
+
+
+<footer>
+    <div class="footer-data">
+        <img class="text-center" src="assets\Me Ensina.svg" alt="Logo" width="10%" />
+        <div class="footer-text">
+            <h1 id="contato">Contato</h1>
+            <h2 id="email">Email : meensina@gmail.com</h2>
+            <h4 id="meensina">Me Ensina 2020</h4>
+        </div>
+    </div>
+</footer>
 <router-outlet></router-outlet>
