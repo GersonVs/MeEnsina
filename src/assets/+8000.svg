@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="518" height="518" viewBox="0 0 518 518">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.322" x2="0.846" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#075e7d"/>
+      <stop offset="1" stop-color="#1e9fce" stop-opacity="0.71"/>
+    </linearGradient>
+    <filter id="Retângulo_9" x="0" y="0" width="518" height="518" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_8000" data-name="+8000" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Retângulo_9)">
+      <rect id="Retângulo_9-2" data-name="Retângulo 9" width="500" height="500" rx="42" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="_8000-2" data-name="+8000" transform="translate(240 229)" fill="#fff" font-size="70" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="-99.89" y="0">+8000</tspan></text>
+    <text id="pedidos_de_aulas_feitos_no_mês_passado_por_alunos_motivados" data-name="pedidos de aulas feitos no mês 
+passado por alunos motivados" transform="translate(257 306)" fill="#fff" font-size="22" font-family="OpenSans, Open Sans"><tspan x="-161.643" y="0">pedidos de aulas feitos no mês </tspan><tspan x="-157.4" y="30">passado por alunos motivados</tspan></text>
+  </g>
+</svg>
