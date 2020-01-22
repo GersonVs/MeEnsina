@@ -1,4 +1,7 @@
-.body1 {
+.imagem1 {
+    background-image: url("/assets/body.png");
+    background-size: 700px;
+    height: 852px;
     background-color: #18222d
 }
 
@@ -6,8 +9,8 @@
     width: 450px;
     height: 480px;
     border-radius: 15px;
-    left: 570px;
-    top: 125px;
+    left: 670px;
+    top: 150px;
 
 }
 
@@ -27,7 +30,7 @@
     height: 52px;
     padding-left: 0px;
     color: gray;
-    
+
 }
 
 .form-control::placeholder {
@@ -39,10 +42,12 @@
 .form-control:focus {
     box-shadow: none;
 }
-.text-center{
+
+.text-center {
     padding-top: 20px;
 }
-.row{
+
+.row {
     padding-top: 30px;
     width: 400px;
     padding-left: 40px;
