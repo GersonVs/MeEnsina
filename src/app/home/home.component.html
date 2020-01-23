@@ -15,10 +15,10 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link text-white font-weight-bold" href="#">Ajuda</a>
-                    <a class="nav-item nav-link text-white font-weight-bold" routerLink="register"
+                    <a *ngIf="!isLoged" class="nav-item nav-link text-white font-weight-bold" routerLink="register"
                         routerLinkActive="active">Inscreva-se</a>
                     <a class="nav-item nav-link text-white font-weight-bold" href="#">Faça parte</a>
-                    <div class="Login">
+                    <div *ngIf="!isLoged" class="Login">
                         <a class="nav-item nav-link text-white text-center rounded-pill bg-warning" routerLink="login"
                             routerLinkActive="active">Login</a>
                     </div>

@@ -15,7 +15,7 @@
                                 <i class="fa fa-user text-muted"></i>
                             </span>
                         </div>
-                        <input id="firstName" type="text" name="firstname" placeholder="Nome"
+                        <input [(ngModel)]="user.firstName" id="firstName" type="text" name="firstname" placeholder="Nome"
                             class="form-control bg-white border-left-0 border-md">
                     </div>
 
@@ -26,7 +26,7 @@
                                 <i class="fa fa-user text-muted"></i>
                             </span>
                         </div>
-                        <input id="lastName" type="text" name="lastname" placeholder="Sobrenome"
+                        <input [(ngModel)]="user.lastName" id="lastName" type="text" name="lastname" placeholder="Sobrenome"
                             class="form-control bg-white border-left-0 border-md">
                     </div>
 
@@ -37,7 +37,7 @@
                                 <i class="fa fa-envelope text-muted"></i>
                             </span>
                         </div>
-                        <input id="email" type="email" name="email" placeholder="E-mail"
+                        <input [(ngModel)]="user.email" id="email" type="email" name="email" placeholder="E-mail"
                             class="form-control bg-white border-left-0 border-md">
                     </div>
                     <!-- Password -->
@@ -47,7 +47,7 @@
                                 <i class="fa fa-lock text-muted"></i>
                             </span>
                         </div>
-                        <input id="password" type="password" name="password" placeholder="Senha"
+                        <input [(ngModel)]="user.password" id="password" type="password" name="password" placeholder="Senha"
                             class="form-control bg-white border-left-0 border-md">
                     </div>
 
@@ -58,12 +58,12 @@
                                 <i class="fa fa-lock text-muted"></i>
                             </span>
                         </div>
-                        <input id="passwordConfirmation" type="password" name="passwordConfirmation"
+                        <input [(ngModel)]="passwordConfirmation" id="passwordConfirmation" type="password" name="passwordConfirmation"
                             placeholder="Confirmar" class="form-control bg-white border-left-0 border-md">
                     </div>
-                    <div class="form-group col-lg-12 mx-auto mb-0">
+                    <div *ngIf="passwordConfirmation == user.password" class="form-group col-lg-12 mx-auto mb-0">
                         <a href="#" class="btn btn-info btn-block py-2">
-                            <span class="font-weight-bold">Inscrever-se</span>
+                            <span (click)="register()" class="font-weight-bold">Inscrever-se</span>
                         </a>
                     </div>
                     <div class="text-center w-100">
