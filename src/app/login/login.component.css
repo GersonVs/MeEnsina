@@ -1,17 +1,15 @@
-.imagem1 {
-    background-image: url("/assets/body.png");
-    background-size: 700px;
-    height: 852px;
-    background-color: #18222d
+.marge-class{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card {
     width: 450px;
     height: 480px;
     border-radius: 15px;
-    left: 670px;
-    top: 150px;
-
+    margin-top: 15%;
 }
 
 .card-title {
@@ -51,4 +49,20 @@
     padding-top: 30px;
     width: 400px;
     padding-left: 40px;
+}
+
+@media screen and (max-width: 523px) {
+    .marge-class{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    .card {
+        width: 80%;
+        height: 90%;
+        border-radius: 15px;
+        margin-top: 15%;
+    }
 }

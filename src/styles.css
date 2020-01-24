@@ -10,3 +10,11 @@
     background-color: #18222D;
     background-size: cover;
 }
+
+.body3 {
+    background-image: url("/assets/body.png");
+    background-size: 700px;
+    height: 852px;
+    background-color: #18222D;
+
+}

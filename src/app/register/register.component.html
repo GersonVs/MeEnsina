@@ -1,79 +1,81 @@
-<div class='imagem2'>
+<div class='body3'>
+    <div class="marge-class">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Inscreva-se</h5>
 
-    <div class="card text-center">
-        <div class="card-body">
-            <h5 class="card-title">Inscreva-se</h5>
+                <div class="col-md-7 col-lg-6 ml-auto"></div>
+                <form action="#">
+                    <div class="row">
 
-            <div class="col-md-7 col-lg-6 ml-auto"></div>
-            <form action="#">
-                <div class="row">
-
-                    <!-- First Name -->
-                    <div class="input-group col-lg-6 mb-4">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text bg-white px-4 border-md border-right-0">
-                                <i class="fa fa-user text-muted"></i>
-                            </span>
+                        <!-- First Name -->
+                        <div class="input-group col-lg-6 mb-4">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                    <i class="fa fa-user text-muted"></i>
+                                </span>
+                            </div>
+                            <input [(ngModel)]="user.firstName" id="firstName" type="text" name="firstname"
+                                placeholder="Nome" class="form-control bg-white border-left-0 border-md">
                         </div>
-                        <input [(ngModel)]="user.firstName" id="firstName" type="text" name="firstname" placeholder="Nome"
-                            class="form-control bg-white border-left-0 border-md">
-                    </div>
 
-                    <!-- Last Name -->
-                    <div class="input-group col-lg-6 mb-4">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text bg-white px-4 border-md border-right-0">
-                                <i class="fa fa-user text-muted"></i>
-                            </span>
+                        <!-- Last Name -->
+                        <div class="input-group col-lg-6 mb-4">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                    <i class="fa fa-user text-muted"></i>
+                                </span>
+                            </div>
+                            <input [(ngModel)]="user.lastName" id="lastName" type="text" name="lastname"
+                                placeholder="Sobrenome" class="form-control bg-white border-left-0 border-md">
                         </div>
-                        <input [(ngModel)]="user.lastName" id="lastName" type="text" name="lastname" placeholder="Sobrenome"
-                            class="form-control bg-white border-left-0 border-md">
-                    </div>
 
-                    <!-- Email Address -->
-                    <div class="input-group col-lg-12 mb-4">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text bg-white px-4 border-md border-right-0">
-                                <i class="fa fa-envelope text-muted"></i>
-                            </span>
+                        <!-- Email Address -->
+                        <div class="input-group col-lg-12 mb-4">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                    <i class="fa fa-envelope text-muted"></i>
+                                </span>
+                            </div>
+                            <input [(ngModel)]="user.email" id="email" type="email" name="email" placeholder="E-mail"
+                                class="form-control bg-white border-left-0 border-md">
                         </div>
-                        <input [(ngModel)]="user.email" id="email" type="email" name="email" placeholder="E-mail"
-                            class="form-control bg-white border-left-0 border-md">
-                    </div>
-                    <!-- Password -->
-                    <div class="input-group col-lg-6 mb-4">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text bg-white px-4 border-md border-right-0">
-                                <i class="fa fa-lock text-muted"></i>
-                            </span>
+                        <!-- Password -->
+                        <div class="input-group col-lg-6 mb-4">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                    <i class="fa fa-lock text-muted"></i>
+                                </span>
+                            </div>
+                            <input [(ngModel)]="user.password" id="password" type="password" name="password"
+                                placeholder="Senha" class="form-control bg-white border-left-0 border-md">
                         </div>
-                        <input [(ngModel)]="user.password" id="password" type="password" name="password" placeholder="Senha"
-                            class="form-control bg-white border-left-0 border-md">
-                    </div>
 
-                    <!-- Password Confirmation -->
-                    <div class="input-group col-lg-6 mb-4">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text bg-white px-4 border-md border-right-0">
-                                <i class="fa fa-lock text-muted"></i>
-                            </span>
+                        <!-- Password Confirmation -->
+                        <div class="input-group col-lg-6 mb-4">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                    <i class="fa fa-lock text-muted"></i>
+                                </span>
+                            </div>
+                            <input [(ngModel)]="passwordConfirmation" id="passwordConfirmation" type="password"
+                                name="passwordConfirmation" placeholder="Confirmar"
+                                class="form-control bg-white border-left-0 border-md">
                         </div>
-                        <input [(ngModel)]="passwordConfirmation" id="passwordConfirmation" type="password" name="passwordConfirmation"
-                            placeholder="Confirmar" class="form-control bg-white border-left-0 border-md">
-                    </div>
-                    <div *ngIf="passwordConfirmation == user.password" class="form-group col-lg-12 mx-auto mb-0">
-                        <a href="#" class="btn btn-info btn-block py-2">
-                            <span (click)="register()" class="font-weight-bold">Inscrever-se</span>
-                        </a>
-                    </div>
-                    <div class="text-center w-100">
-                        <p class="text-muted font-weight-bold">Ja possui uma conta? <a
-                            routerLink='login' routerActiveLink='active'>Conecte-se</a></p>
-                    </div>
+                        <div *ngIf="passwordConfirmation == user.password" class="form-group col-lg-12 mx-auto mb-0">
+                            <a href="#" class="btn btn-info btn-block py-2">
+                                <span (click)="register()" class="font-weight-bold">Inscrever-se</span>
+                            </a>
+                        </div>
+                        <div class="text-center w-100">
+                            <p class="text-muted font-weight-bold">Ja possui uma conta? <a href='login'>Conecte-se</a>
+                            </p>
+                        </div>
 
-                </div>
-            </form>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
-</div>
 
+</div>

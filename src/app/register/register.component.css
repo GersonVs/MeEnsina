@@ -6,13 +6,18 @@
     
 }
 
+.marge-class{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .card {
     width: 450px;
-    height: 550px;
+    height: 480px;
     border-radius: 15px;
-    left: 670px;
-    top: 125px;
-
+    margin-top: 15%;
 }
 
 .card-title {

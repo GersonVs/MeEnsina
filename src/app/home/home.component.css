@@ -28,6 +28,18 @@ p {
 .Login {
     width: 80px;
 }
+.tornese {
+    background-color: #127294;
+    width: 220px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    border-radius: 15px;
+    margin-left: 7%;
+    margin-top: 7%;
+    font-size: 1.2em
+}
 
 .container {
     display: flex;
@@ -122,6 +134,7 @@ p {
     flex-direction: column;
     align-items: flex-start;
 }
+
 .aprenda {
     position: relative;
     padding-top: 10%;
@@ -155,6 +168,18 @@ p {
     padding-left: 20%;
     display: flex;
     flex-direction: row;
+    padding-bottom: 5%;
+}
+.text-div-8000{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+}
+#text-8000 {
+    color: #C5C8CA;
+    margin-left: 2%;
 }
 
 .footer-data {
