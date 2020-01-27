@@ -1,0 +1,16 @@
+.banner{
+    background-image: url("../../assets/Fundo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+
+    .btn.btn-marinho {
+    border:none;
+    background-color: #1E9FCE;
+    background-image: -moz-linear-gradient(top, #1E9FCE, #1E9FCE);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#1E9FCE), to(#1E9FCE));
+    background-image: -webkit-linear-gradient(top, #1E9FCE, #1E9FCE);
+    background-image: -o-linear-gradient(top, #1E9FCE, #1E9FCE);
+    background-image: linear-gradient(to bottom, #1E9FCE, #1E9FCE);
+}
+
