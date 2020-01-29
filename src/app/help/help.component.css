@@ -1,10 +1,9 @@
-.banner{
-    background-image: url("../../assets/Fundo.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    }
+.bg-treva{
+    background-color: rgba(41, 38, 38, 0.87);
+}
 
-    .btn.btn-marinho {
+
+ .btn.btn-marinho {
     border:none;
     background-color: #1E9FCE;
     background-image: -moz-linear-gradient(top, #1E9FCE, #1E9FCE);
@@ -13,4 +12,23 @@
     background-image: -o-linear-gradient(top, #1E9FCE, #1E9FCE);
     background-image: linear-gradient(to bottom, #1E9FCE, #1E9FCE);
 }
+body { background: #eee }
 
+.container-fluid { max-width: 1200px; }
+
+[class*="col-"] {
+	background: #efefef;
+	border: none;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	width: 100%;
+}
+
+p{
+    font-size: 18px;
+}
+
+a:link
+{
+text-decoration:none;
+}
